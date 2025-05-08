@@ -1,0 +1,10 @@
+[package]
+name = "srvany-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mpsc = "0.2.5"
+windows = { version = "0.61.1", features = ["Win32_System_Services", "Win32_System_Threading"] }
+windows-registry = "0.5.1"
+windows-service = "0.8.0"
